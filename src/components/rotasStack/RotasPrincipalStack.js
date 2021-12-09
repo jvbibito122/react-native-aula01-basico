@@ -11,11 +11,11 @@ const RotasPrincipalStack = () => {
     return (
         <Stack.Navigator initialRouteName="Inicial">
         <Stack.Screen
-            name="Inicial" component={Inicial}
+            name="Home" component={Inicial}
             options={ { cardStyle: estiloRotasStack.screenInicial,
                                 headerShown: false}} />
             <Stack.Screen
-            name="Colecao" component={Colecao}
+            name="Inicio" component={Colecao}
             options={ {cardStyle: estiloRotasStack.screenColecao, 
                        headerShown: false}}/>
             <Stack.Screen

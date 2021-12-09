@@ -25,7 +25,7 @@ function Login({ navigation}) {
 return (
     <View style={estiloLogin.container}>
         <View style={estiloLogin.borda}>
-            <Text style={estiloLogin.texto}> Login </Text>
+            <Text style={estiloLogin.texto}> Bem-vindo </Text>
             <TextInput
             style={estiloLogin.campo}
             placeholder="Login"
